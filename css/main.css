@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: poppins;
+    background-color: rgb(224, 224, 224);
+}
+/* Heading Styling Ends Here */
+.header {
+    background-color: rgb(1, 151, 161);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: aliceblue;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.logo span {
+    color: rgb(44, 44, 44);
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.form {
+    background-color: antiquewhite;
+    border-radius: 0.2rem;
+    width: 22rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+.form input[type="text"] {
+    border: none;
+    background: transparent;
+    width: 70%;
+    height: 80%;
+    margin-right: 0.5rem;
+    margin-left: 0.2rem;
+    font-family: poppins;
+}
+.form input[type="text"]:focus {
+    outline: none;
+}
+.form input[type="submit"] {
+    width: 26%;
+    background-color: rgb(0, 60, 65);
+    border: none;
+    height: 80%;
+    border-radius: 5px;
+    color: antiquewhite;
+    font-family: poppins;
+    transition: all 0.2s ease-in-out;
+}
+.form input[type="submit"]:hover {
+    background-color: rgb(0, 89, 97);
+    transform: scale(1.03);
+}
+.form input[type="submit"]:active {
+    transform: scale(1);
+}
+/* Body Styling Start Here */
+.main {
+    padding: 2rem;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 2rem;
+    justify-content: center;
+}
+.movie-card {
+    width: 18rem;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding-bottom: 1rem;
+}
+.movie_img {
+    width: 100%;
+}
+.title {
+    padding: 5px 10px;
+}
+.des {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: rgb(58, 58, 58);
+}
+.rating {
+    padding: 5px 10px;
+    color: saddlebrown;
+}
+.btn {
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(1, 151, 161);
+    transition: all 0.2s ease-in;
+}
+.btn:hover {
+    transform: scale(1.03);
+}
+.btn:active {
+    transform: scale(1);
+}
